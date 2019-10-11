@@ -1,130 +1,130 @@
 {
-    "status": "SUCCESS",
-    "cccc": [
-        {
-            "name": "Allotment",
-            "itId": 4,
-            "itName": "czxc",
-            "itStatus": "Y"
-        },
-        {
-            "name": "Free Sell",
-            "itId": 5,
-            "itName": "xZXZ",
-            "itStatus": "Y"
-        }
-    ],
-    "bbbb": [
-        {
-            "name": "Web",
-            "bcId": 1,
-            "bcName": "Webee"
-        }
-    ],
-    "inventoryList": [
-        {
-            "name": "Allotment",
-            "itId": 4,
-            "itName": "czxc",
-            "itStatus": "Y"
-        },
-        {
-            "name": "Free Sell",
-            "itId": 5,
-            "itName": "xZXZ",
-            "itStatus": "Y"
-        }
-    ],
-    "bookingChannelList": [
-        {
-            "name": "Web",
-            "bcId": 1,
-            "bcName": "Webee"
-        }
-    ],
-    "inventoryObtainedBy": [
-        {
-            "id": "session",
-            "value": true,
-            "name": "Session",
-            "dissabled": true
-        },
-        {
-            "id": "subsession",
-            "value": true,
-            "name": "Session",
-            "dissabled": false
-        },
-        {
-            "id": "rateplan",
-            "value": true,
-            "name": "Rate Plan",
-            "dissabled": false
-        }
-    ],
-    "inventoryInfo": {
-        "subSessionName": "",
-        "sessionName": "Session"
-    },
-    "tableData": {
-        "Allotment-czxc": [
-            {
-                "bookingChannel": {
-                    "name": "Web",
-                    "bcId": 1,
-                    "bcName": "Webee"
-                },
-                "searchSatisfied": {
-                    "radios": [
-                        "Confirm",
-                        "Call to Book",
-                        "None"
-                    ],
-                    "value": "Allotment-Web-Search Satisfied-Confirm"
-                },
-                "inventoryExhausted": {
-                    "radios": [
-                        "Free Sell",
-                        "Request",
-                        "Call to Book",
-                        "None"
-                    ],
-                    "value": "Allotment-Web-Inventory Exhausted-Request"
-                },
-                "cutoffApplied": {
-                    "radios": [
-                        "Request",
-                        "Call to Book",
-                        "None"
-                    ],
-                    "value": "Allotment-Web-Cutoff Applied-Request"
-                }
-            }
-        ],
-        "Free Sell-xZXZ": [
-            {
-                "bookingChannel": {
-                    "name": "Web",
-                    "bcId": 1,
-                    "bcName": "Webee"
-                },
-                "searchSatisfied": {
-                    "radios": [
-                        "Confirm",
-                        "Call to Book",
-                        "None"
-                    ],
-                    "value": "Free Sell-Web-Search Satisfied-Confirm"
-                },
-                "inventoryExhausted": {
-                    "radios": [],
-                    "value": "Free Sell-Web-Inventory Exhausted-Request"
-                },
-                "cutoffApplied": {
-                    "radios": [],
-                    "value": "Free Sell-Web-Cutoff Applied-Request"
-                }
-            }
-        ]
-    }
+  "status": "SUCCESS",
+  "cccc": [
+    {
+      "name": "Allotment",
+      "itId": 4,
+      "itName": "czxc",
+      "itStatus": "Y"
+    },
+    {
+      "name": "Free Sell",
+      "itId": 5,
+      "itName": "xZXZ",
+      "itStatus": "Y"
+    }
+  ],
+  "bbbb": [
+    {
+      "name": "Web",
+      "bcId": 1,
+      "bcName": "Webee"
+    }
+  ],
+  "inventoryList": [
+    {
+      "name": "Allotment",
+      "itId": 4,
+      "itName": "czxc",
+      "itStatus": "Y"
+    },
+    {
+      "name": "Free Sell",
+      "itId": 5,
+      "itName": "xZXZ",
+      "itStatus": "Y"
+    }
+  ],
+  "bookingChannelList": [
+    {
+      "name": "Web",
+      "bcId": 1,
+      "bcName": "Webee"
+    }
+  ],
+  "inventoryObtainedBy": [
+    {
+      "id": "session",
+      "value": true,
+      "name": "Session",
+      "dissabled": true
+    },
+    {
+      "id": "subsession",
+      "value": true,
+      "name": "Session",
+      "dissabled": false
+    },
+    {
+      "id": "rateplan",
+      "value": true,
+      "name": "Rate Plan",
+      "dissabled": false
+    }
+  ],
+  "inventoryInfo": {
+    "subSessionName": "",
+    "sessionName": "Session"
+  },
+  "tableData": {
+    "Allotment-czxc": [
+      {
+        "bookingChannel": {
+          "name": "Web",
+          "bcId": 1,
+          "bcName": "Webee"
+        },
+        "searchSatisfied": {
+          "radios": [
+            "Confirm",
+            "Call to Book",
+            "None"
+          ],
+          "value": "Allotment-Web-Search Satisfied-Confirm"
+        },
+        "inventoryExhausted": {
+          "radios": [
+            "Free Sell",
+            "Request",
+            "Call to Book",
+            "None"
+          ],
+          "value": "Allotment-Web-Inventory Exhausted-Request"
+        },
+        "cutoffApplied": {
+          "radios": [
+            "Request",
+            "Call to Book",
+            "None"
+          ],
+          "value": "Allotment-Web-Cutoff Applied-Request"
+        }
+      }
+    ],
+    "Free Sell-xZXZ": [
+      {
+        "bookingChannel": {
+          "name": "Web",
+          "bcId": 1,
+          "bcName": "Webee"
+        },
+        "searchSatisfied": {
+          "radios": [
+            "Confirm",
+            "Call to Book",
+            "None"
+          ],
+          "value": "Free Sell-Web-Search Satisfied-Confirm"
+        },
+        "inventoryExhausted": {
+          "radios": [],
+          "value": "Free Sell-Web-Inventory Exhausted-Request"
+        },
+        "cutoffApplied": {
+          "radios": [],
+          "value": "Free Sell-Web-Cutoff Applied-Request"
+        }
+      }
+    ]
+  }
 }
